@@ -1,0 +1,52 @@
+/* color palette: https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/
+body {
+    font-family: 'Roboto', sans-serif; /*google font*/
+    background-color: #E5E5E5; /*background color*/
+    color: #14213D; /*text color*/
+}
+.body-div {
+    padding: 150px;
+}
+
+h1 {
+    background-color: #FCA311;
+    padding: 25px; /*space around content*/
+    margin: -160px -160px 20px -160px; /*remove each to see what happens, you made h1 flush with this*/
+}
+
+nav {
+    padding: 30px;
+}
+.nav-link {
+    display: block;
+    float: left;
+    padding: 3px;
+}
+li {
+    list-style-type: none; /*removes bullet points*/
+}
+a {
+    color: #14213D;
+    text-decoration: none; /*removes link underlines */
+}
+a:hover {
+    color: #FCA311;
+}
+
+/*I have aligned the h1 and footer*/
+h1, footer {
+    text-align: center;
+}
+
+/*This adds a border-bottom to items with the calss "underline"*/
+.underline {
+    border-bottom: 2px solid black;
+}
+
+section {
+    padding-top: 30px; /*created space on top of each section*/
+}
+
+footer {
+    padding-top: 30px; /*this moves footer 30px lower*/
+}
